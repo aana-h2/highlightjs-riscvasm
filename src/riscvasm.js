@@ -81,7 +81,7 @@ const PRIVILEGED = [
 
 const KEYWORD = MNEMONICS.concat(PSEUDOS).concat(PRIVILEGED);
 
-export default function riscvasm(hljs) {
+module.exports = function (hljs) {
   return {
     name: 'RISC-V Assembly',
     aliases: [ 'riscv' ],
