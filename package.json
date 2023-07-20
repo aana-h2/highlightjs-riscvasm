@@ -1,0 +1,24 @@
+{
+  "name": "highlightjs-riscvasm",
+  "version": "1.0.0",
+  "description": "RISC-V grammar for highlight.js",
+  "main": "src/riscvasm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aana-h2/highlightjs-riscv.git"
+  },
+  "keywords": [
+    "highlight.js",
+    "highlightjs",
+    "riscv"
+  ],
+  "author": "aana_h2",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/aana-h2/highlightjs-riscvasm/issues"
+  },
+  "homepage": "https://github.com/aana-h2/highlightjs-riscvasm#readme"
+}

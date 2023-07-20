@@ -1,0 +1,22 @@
+fcvt.s.d
+j
+jal
+feq.s
+hinval.vvma
+fcvt.wu.s
+
+.local
+.uleb128
+.8byte
+
+f15
+f23
+x15
+
+-273 # deadbeef CONSTANT+0x0
+,15
+15-18
+0x888
+
+bgez t0, fail
+sfence.vma

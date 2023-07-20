@@ -1,0 +1,22 @@
+<span class="hljs-keyword">fcvt.s.d</span>
+<span class="hljs-keyword">j</span>
+<span class="hljs-keyword">jal</span>
+<span class="hljs-keyword">feq.s</span>
+<span class="hljs-keyword">hinval.vvma</span>
+<span class="hljs-keyword">fcvt.wu.s</span>
+
+<span class="hljs-meta">.local</span>
+<span class="hljs-meta">.uleb128</span>
+<span class="hljs-meta">.8byte</span>
+
+<span class="hljs-built_in">f15</span>
+<span class="hljs-built_in">f23</span>
+<span class="hljs-built_in">x15</span>
+
+<span class="hljs-number">-273</span> <span class="hljs-comment"># deadbeef CONSTANT+0x0</span>
+,<span class="hljs-number">15</span>
+<span class="hljs-number">15</span>-<span class="hljs-number">18</span>
+<span class="hljs-number">0x888</span>
+
+<span class="hljs-keyword">bgez</span> <span class="hljs-built_in">t0</span>, fail
+<span class="hljs-keyword">sfence.vma</span>
