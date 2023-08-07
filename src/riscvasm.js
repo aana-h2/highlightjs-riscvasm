@@ -1,6 +1,6 @@
 /*
 Language: RISC-V Assembly
-Author: aana_2 <aana_h2@outlook.com>
+Author: aana_h2 <aana_h2@outlook.com>
 Description: RISC-V64GC assembly language
 Website: https://riscv.org/technical/specifications/
 Category: assembler
