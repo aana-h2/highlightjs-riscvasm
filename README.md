@@ -4,7 +4,7 @@
 
 ### Static website
 
-Simply load the module after loading Highlight.js:
+Simply load the grammar after loading Highlight.js:
 ```html
 <link rel="stylesheet" href="/path/to/styles/default.min.css">
 <script src="/path/to/highlight.min.js"></script>
@@ -12,13 +12,13 @@ Simply load the module after loading Highlight.js:
 <script>hljs.highlightAll();</script>
 ```
 
-There is a esm style to use it:
+You also can import it as a module:
 ```html
 <link rel="stylesheet" href="/path/to/styles/default.min.css">
 <script type="module">
     import hljs from '/path/to/highlight.min.js';
     import riscvasm from '/path/to/riscvasm.es.min.js';
-    hljs.registerLanguage('riscv', riscvasm);
+    hljs.registerLanguage('riscv', riscvasm); // register it.
     hljs.highlightAll();
 </script>
 ```
