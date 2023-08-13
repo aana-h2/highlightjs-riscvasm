@@ -106,7 +106,7 @@ module.exports = function (hljs) {
             begin: '0b[01]+'
           },
           { // dec
-            begin: '(?<![\\w.])-?[1-9]\\d*'
+            begin: '(?<![\\w.])-?(0|[1-9]\\d*)'
           },
           {
             // float
@@ -121,7 +121,7 @@ module.exports = function (hljs) {
           // Global label and local label
           { begin: '^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)' },
           // Macro-local label
-          { begin: '^\\s*%%[A-Za-z0-9_$#@~.?]*:' }
+          { begin: '^\\s*%%[A-Za-z0-9_$#@~.?]*:' },
         ],
         relevance: 0
       }
