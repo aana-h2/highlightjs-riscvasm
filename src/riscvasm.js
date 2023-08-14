@@ -106,7 +106,7 @@ module.exports = function (hljs) {
             begin: '0b[01]+'
           },
           { // dec
-            begin: '(?<![\\w.])-?(0|[1-9]\\d*)'
+            begin: '(?<![\\w.])-?(0|[1-9]\\d*)(?![:\\w])'
           },
           {
             // float
@@ -122,6 +122,10 @@ module.exports = function (hljs) {
           { begin: '^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)' },
           // Macro-local label
           { begin: '^\\s*%%[A-Za-z0-9_$#@~.?]*:' },
+          // numbered local label
+          { begin: '^\\s*[0-9]+:' },
+          // numbered local label reference
+          { begin: '[0-9]+[bf](?!\\w)' },
         ],
         relevance: 0
       }
